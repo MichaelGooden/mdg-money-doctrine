@@ -1,0 +1,16 @@
+{
+    "name": "michaelgooden/mdg-money-doctrine",
+    "description": "Doctrine Types and Embeddables for the PHP implementation of Fowler's Money pattern.",
+    "type": "library",
+    "require": {
+        "moneyphp/money": "^3.0",
+        "doctrine/dbal": "^2.3"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Michael Gooden",
+            "email": "me@michaelgooden.net"
+        }
+    ]
+}
