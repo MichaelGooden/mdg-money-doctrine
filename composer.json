@@ -17,5 +17,10 @@
         "psr-4": {
             "Mdg\\Money\\Doctrine\\": "src/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
     }
 }
