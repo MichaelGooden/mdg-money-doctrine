@@ -12,5 +12,16 @@
             "name": "Michael Gooden",
             "email": "me@michaelgooden.net"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mdg\\Money\\Doctrine\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev",
+            "dev-develop": "0.2.x-dev"
+        }
+    }
 }
