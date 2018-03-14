@@ -14,8 +14,8 @@ class CurrencyType extends Type
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
         return $platform->getVarcharTypeDeclarationSQL([
-            'length' => 3,
-            'fixed' => true,
+            'length' => 5,
+            'fixed' => false,
         ]);
     }
 
