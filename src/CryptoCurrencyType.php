@@ -9,13 +9,13 @@ use Money\Currency;
 
 class CurrencyType extends Type
 {
-    const NAME = 'currency';
+    const NAME = 'cryptocurrency';
 
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
         return $platform->getVarcharTypeDeclarationSQL([
-            'length' => 3,
-            'fixed' => true,
+            'length' => 5,
+            'fixed' => false,
         ]);
     }
 
