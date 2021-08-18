@@ -7,14 +7,14 @@ use Doctrine\DBAL\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Money\Currency;
 
-class CurrencyType extends Type
+class ExtendedCurrencyType extends Type
 {
-    const NAME = 'cryptocurrency';
+    const NAME = 'extended_currency';
 
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
     {
         return $platform->getVarcharTypeDeclarationSQL([
-            'length' => 5,
+            'length' => 255,
             'fixed' => false,
         ]);
     }
