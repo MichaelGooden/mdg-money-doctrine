@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.2.1]
+### Added
+- Support moneyphp/money 4.0. Thanks to Menno Holtkamp (https://github.com/MichaelGooden/mdg-money-doctrine/pull/1)
+
 ## [0.2.0]
 ### Added
 - Extended currency code length support for cryptocurrencies
@@ -16,4 +20,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - This CHANGELOG file
 
 [0.2.0]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.1.0...0.2.0
-[Unreleased]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.2.0...HEAD
+[0.2.1]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.2.0...0.2.1
+[Unreleased]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.2.1...HEAD
