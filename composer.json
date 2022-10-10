@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "moneyphp/money": "^3.0 || ^4.0",
-        "doctrine/dbal": "^2.3"
+        "doctrine/dbal": "^2.3 || ^3.2"
     },
     "license": "BSD-3-Clause",
     "authors": [
