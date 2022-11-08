@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.3.0]
+### Added
+- Add support for Doctrine DBAL v3
+
 ## [0.2.1]
 ### Added
 - Support moneyphp/money 4.0. Thanks to Menno Holtkamp (https://github.com/MichaelGooden/mdg-money-doctrine/pull/1)
@@ -21,4 +25,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 [0.2.0]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.1.0...0.2.0
 [0.2.1]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.2.0...0.2.1
-[Unreleased]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.2.1...HEAD
+[0.3.0]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.2.1...0.3.0
+[Unreleased]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.3.0...HEAD
