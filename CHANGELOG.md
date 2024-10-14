@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.4.3]
+### Removed
+- Doctrine DBAL v2 support
+
 ## [0.4.2]
 ### Added
 - Stricter XML
@@ -41,4 +45,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [0.4.0]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.3.0...0.4.0
 [0.4.1]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.4.0...0.4.1
 [0.4.2]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.4.1...0.4.2
-[Unreleased]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.4.2...HEAD
+[0.4.3]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.4.2...0.4.3
+[Unreleased]: https://github.com/MichaelGooden/mdg-money-doctrine/compare/0.4.3...HEAD
