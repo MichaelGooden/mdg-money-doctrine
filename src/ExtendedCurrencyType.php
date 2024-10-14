@@ -13,7 +13,7 @@ class ExtendedCurrencyType extends Type
 
     public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform): string
     {
-        return $platform->getVarcharTypeDeclarationSQL([
+        return $platform->getStringTypeDeclarationSQL([
             'length' => 255,
             'fixed' => false,
         ]);
