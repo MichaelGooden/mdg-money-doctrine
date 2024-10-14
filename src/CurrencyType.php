@@ -11,7 +11,7 @@ class CurrencyType extends Type
 {
     const NAME = 'currency';
 
-    public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
+    public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform): string
     {
         return $platform->getVarcharTypeDeclarationSQL([
             'length' => 3,
@@ -19,7 +19,7 @@ class CurrencyType extends Type
         ]);
     }
 
-    public function convertToPHPValue($value, AbstractPlatform $platform)
+    public function convertToPHPValue($value, AbstractPlatform $platform): mixed
     {
         if (empty($value)) {
             return null;
@@ -35,7 +35,7 @@ class CurrencyType extends Type
         return $currency;
     }
 
-    public function convertToDatabaseValue($value, AbstractPlatform $platform)
+    public function convertToDatabaseValue($value, AbstractPlatform $platform): mixed
     {
         if (empty($value)) {
             return null;
